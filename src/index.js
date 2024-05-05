@@ -8,7 +8,7 @@ const server = async () => {
   try {
     await dbConfig();
     appConfig(app);
-    app.listen(4040, () => {
+    app.listen(4000, () => {
       console.log('Server is running');
     });
   } catch (error) {
